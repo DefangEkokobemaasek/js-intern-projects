@@ -7,7 +7,7 @@ const buttons = [lightBtn, darkBtn, blueBtn];
 
 // Function to remove active highlight
 function clearActive() {
-    buttons.forEach(btn => btn.style.border = "");
+    buttons.forEach(btn => btn.classList.remove("active"));
 }
 
 // Add smooth transition
@@ -26,7 +26,7 @@ darkBtn.addEventListener("click", () => {
     body.style.backgroundColor = "#222";
     body.style.color = "white";
     clearActive();
-    darkBtn.style.border = "2px solid white";
+lightBtn.classList.add("active");
 });
 
 // Blue Mode
