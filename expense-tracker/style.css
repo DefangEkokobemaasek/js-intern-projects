@@ -1,23 +1,30 @@
+/* General */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
     color: #333;
 }
 
 h1, h2, h3 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
+/* Inputs */
 input {
-    padding: 8px;
+    padding: 10px;
     width: 100%;
     margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
+/* Buttons */
 button {
     padding: 10px 15px;
     margin: 5px 5px 10px 0;
@@ -26,20 +33,47 @@ button {
     background-color: #9b559f;
     color: white;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #7a3f7a;
 }
 
+/* Expense List */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 li {
-    padding: 5px 0;
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Delete Button */
+li span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #c0392b;
+    transition: 0.2s;
+}
+
+li span:hover {
+    color: #e74c3c;
+}
+
+/* Total */
+h2 span {
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.98);
 }
