@@ -1,6 +1,6 @@
 # JS Intern Projects
 
-Hey! Am call Ngwain Boris, Welcome to my repository.
+Hey! Am call Defang-Ekokobe Ma-Asek, Welcome to my repository.
 This repository contains beginner JavaScript mini projects for FastWeb internship assessment, Buea Cameroon.  
 Each project demonstrates basic DOM manipulation, event handling, and UI interaction.
 
