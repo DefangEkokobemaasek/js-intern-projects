@@ -67,4 +67,4 @@ js-intern-projects/
 ---
 
 ### Author
-**Ngwain Boris** – JS Intern Projects
+**Defang-Ekokobe Ma-Asek** – JS Intern Projects
